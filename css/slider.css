@@ -1,0 +1,76 @@
+.slider {
+  background-color: #F8FAF9;
+  padding-top: rem(66px);
+  padding-bottom: rem(66px);
+}
+
+.slider-container {
+  display: flex;
+  color: #666666;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider-offer {
+  display: flex;
+  align-items: center;
+}
+
+.slider-picture {
+  display: flex;
+  margin-right: rem(43px);
+}
+
+.slider-text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-bottom: rem(65px);
+}
+
+.slider-text__logo {
+  display: flex;
+  margin-bottom: rem(23px);
+}
+
+.slider-text__title {
+  font-size: rem(36px);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #292929;
+  margin-bottom: rem(23px);
+}
+
+.slider-text__description {
+  margin-bottom: rem(30px);
+}
+
+.slider-text__list {
+  display: flex;
+  margin-bottom: rem(20px);
+}
+
+.slider-text__item {
+  display: flex;
+  flex-direction: column;
+  margin-right: rem(50px);
+}
+
+.dark-text {
+  color: #000;
+  font-weight: 700;
+}
+
+.slider-text__buy {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.slider-text__price {
+  font-size: rem(60px);
+  font-weight: 300;
+  color: #151515;
+  margin-right: rem(30px);
+}
